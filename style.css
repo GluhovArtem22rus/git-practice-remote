@@ -1,0 +1,52 @@
+/* Центрируем форму на экране и задаем красивый серый фон для страницы */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Делаем форму в виде белой аккуратной карточки с тенью */
+form {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 0;
+}
+
+/* Оформляем поля ввода (делаем их шире и добавляем рамку) */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Чтобы padding не раздувал ширину */
+}
+
+/* Делаем кнопку красивой, синей и на всю ширину */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Эффект при наведении мышки на кнопку */
+button:hover {
+    background-color: #0056b3;
+}
