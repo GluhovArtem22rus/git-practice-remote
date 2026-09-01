@@ -1,0 +1,13 @@
+$navbarContent = @"
+<nav style="background-color: #333; padding: 15px; display: flex; justify-content: space-between; align-items: center;">
+    <div style="color: white; font-weight: bold; font-family: Arial, sans-serif;">МойСайт</div>
+    <ul style="list-style: none; margin: 0; padding: 0; display: flex; gap: 20px;">
+        <li><a href="#" style="color: white; text-decoration: none; font-family: Arial, sans-serif;">Главная</a></li>
+        <li><a href="#" style="color: white; text-decoration: none; font-family: Arial, sans-serif;">О нас</a></li>
+        <li><a href="#" style="color: white; text-decoration: none; font-family: Arial, sans-serif;">Контакты</a></li>
+        <li><a href="./login.html" style="color: #007bff; text-decoration: none; font-family: Arial, sans-serif; background: white; padding: 5px 10px; border-radius: 4px;">Войти</a></li>
+    </ul>
+</nav>
+"@
+
+Set-Content -Path ".\navbar.html" -Value $navbarContent -Encoding utf8
